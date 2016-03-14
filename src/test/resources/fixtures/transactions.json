@@ -1,0 +1,66 @@
+[
+  {
+    "id": "100",
+    "amount": "200.12",
+    "type": "car"
+  },
+  {
+    "id": "101",
+    "amount": "100",
+    "type": "car",
+    "parentId": "100"
+  },
+  {
+    "id": "102",
+    "amount": "100",
+    "type": "home",
+    "parentId": "100"
+  },
+  {
+    "id": "103",
+    "amount": "100",
+    "type": "home"
+  },
+  {
+    "id": "104",
+    "amount": "23.12",
+    "type": "insurance",
+    "parentId": "103"
+  },
+  {
+    "id": "105",
+    "amount": "-0.12",
+    "type": "car",
+    "parentId": "103"
+  },
+  {
+    "id": "106",
+    "amount": "1.12",
+    "type": "car",
+    "parentId": "103"
+  },
+  {
+    "id": "107",
+    "amount": "50.12",
+    "type": "car",
+    "parentId": "103"
+  },
+  {
+    "id": "108",
+    "amount": "10.12",
+    "type": "car",
+    "parentId": "123456789"
+  },
+  {
+    "id": "109",
+    "amount": "-200.98",
+    "type": "travel",
+    "parentId": "123456789"
+  },
+  {
+    "id": "110",
+    "amount": "100.12",
+    "type": "car",
+    "parentId": "123456789"
+  }
+]

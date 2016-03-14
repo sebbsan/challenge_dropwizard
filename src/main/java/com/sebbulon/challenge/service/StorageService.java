@@ -8,6 +8,8 @@ import java.util.List;
 
 /**
  * Created by sebastianweikart on 14/03/2016.
+ * A service that is managed by the DropWizard Framework. In our case simply a List that remains in memory.
+ * This can also represent a database connection, or a connection to another 3rd party system.
  */
 public class StorageService implements Managed {
 

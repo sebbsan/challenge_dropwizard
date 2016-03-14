@@ -1,6 +1,6 @@
 package com.sebbulon.challenge;
 
-import com.sebbulon.challenge.resources.TransactionResource;
+import com.sebbulon.challenge.test.TransactionResource;
 import com.sebbulon.challenge.service.StorageService;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
@@ -8,6 +8,7 @@ import io.dropwizard.setup.Environment;
 
 /**
  * Created by sebastianweikart on 13/03/2016.
+ * the main entry point of this dropwizard service
  */
 public class TransactionApplication extends Application<ChallengeConfiguration> {
 

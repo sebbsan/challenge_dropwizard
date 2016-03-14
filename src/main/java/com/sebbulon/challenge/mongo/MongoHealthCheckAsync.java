@@ -11,6 +11,8 @@ import java.util.concurrent.CompletableFuture;
 
 /**
  * Created by sebastianweikart on 13/03/2016.
+ * in my original version I linked up a MongoDB to store the transactions
+ * I choose to use the asynchronous driver to maximise performance for the anticipated enormous loads of the system
  */
 public class MongoHealthCheckAsync extends HealthCheck {
 
